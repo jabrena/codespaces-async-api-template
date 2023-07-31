@@ -15,4 +15,5 @@ jobs:
       - uses: stoplightio/spectral-action@latest
         with:
           file_glob: "./hello-world-asyncapi.yaml"
+          spectral_ruleset: "./.spectral.yaml"
           repo_token: ${{ github.token }}  

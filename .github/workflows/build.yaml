@@ -14,4 +14,5 @@ jobs:
       # Run Spectral
       - uses: stoplightio/spectral-action@latest
         with:
-          file_glob: './codespaces-async-api-template/*.yaml'
+          file_glob: "./hello-world-asyncapi.yaml"
+          repo_token: ${{ github.token }}  

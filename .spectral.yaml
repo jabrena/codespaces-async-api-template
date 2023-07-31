@@ -1,0 +1,7 @@
+{
+  "formats": ["asyncapi2"],
+  "extends": "spectral:asyncapi",
+  "rules": {
+    // add your own rules here
+  }
+}
